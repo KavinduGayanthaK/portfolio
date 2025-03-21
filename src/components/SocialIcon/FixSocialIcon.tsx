@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import styled from "@emotion/styled";
 import ScrollAnimation from "react-animate-on-scroll";

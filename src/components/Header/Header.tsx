@@ -1,5 +1,6 @@
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElement";
 
+
 interface HeaderProps {
   toggle: () => void;
 }
@@ -8,7 +9,7 @@ const Header: React.FC<HeaderProps> = ({ toggle }) => {
   return (
     <div className="Container" style={{ padding: 0 }}>
       <Nav>
-        <Logo to="/">
+        <Logo >
           <img src="/logo.png" alt="logo" />
         </Logo>
         <NavMenu>

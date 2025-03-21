@@ -1,8 +1,8 @@
-import  { useState } from "react";
+import { useState } from "react";
 import { ContactWrapper, Email } from "./ContactElement";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
-
+import Zoom from '@mui/material/Zoom';
 
 import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
@@ -26,11 +26,13 @@ function Contact() {
               <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
                 <span>gayanthakavindu3@gmail.com</span>
                 <Tooltip
-                  
+                  PopperProps={{
+                    disablePortal: true,
+                  }}
                   open={showTooltip}
                   onClose={() => setShowTooltip(false)}
                   title="Copied!"
-                 
+                  TransitionComponent={Zoom}
                   disableFocusListener
                   disableHoverListener
                   disableTouchListener

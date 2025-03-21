@@ -1,7 +1,7 @@
 // --------------------------------------- Project List
 export const ProjectList = [
     {
-      img: "/GettyImages-1090272172-1920x1080.png",
+      img: "/portfolio/GettyImages-1090272172-1920x1080.png",
       title: "Drive-Hub(Vehicle Renting System)",
       description:
         "A standalone JavaFX-based desktop app for managing a vehicle rental shop, using JDBC with MySQL for data storage and Jasper Reports for sales and order reports. It streamlines order processing, inventory tracking, and billing.",
@@ -11,7 +11,7 @@ export const ProjectList = [
       backend: "",
     },
     {
-      img: "/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg",
+      img: "/portfolio/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg",
       title: "Library Management System",
       description:
         "A JavaFX-based library management app using JDBC, Hibernate, and MySQL with a layered architecture.",
@@ -21,7 +21,7 @@ export const ProjectList = [
       backend: "",
     },
     {
-      img: "/person-tapping-POS-system.png",
+      img: "/portfolio/person-tapping-POS-system.png",
       title: "EVOSELL(POS System)",
       description:
         "A web-based grocery POS system with a responsive frontend (HTML, CSS, Bootstrap, jQuery) and a secure backend (Spring, Java, Hibernate JPA, MySQL) for order processing, inventory, billing, and customer management.",
@@ -31,7 +31,7 @@ export const ProjectList = [
       backend: "https://github.com/KavinduGayanthaK/Evosell-SpringBackend.git",
     },
     {
-      img: "/ff7df2b682f14ab4e505efe02f7c0ff1.jpg",
+      img: "/portfolio/ff7df2b682f14ab4e505efe02f7c0ff1.jpg",
       title: "Pocket Guard(Expense tracker app)",
       description:
         "Building an Expense Tracker app with React Native (Expo) frontend and Node.js backend using Express, JWT authentication, Prisma, and MySQL.",
@@ -41,7 +41,7 @@ export const ProjectList = [
       backend: "https://github.com/KavinduGayanthaK/expensive_tracer_node_backend.git",
     },
     {
-      img: "/premium_photo-1722899516572-409bf979e5d6.jpg",
+      img: "/portfolio/premium_photo-1722899516572-409bf979e5d6.jpg",
       title: "Green-Shadow (Crop Monitoring system)",
       description:
         "A React & TypeScript field data management app with a Node.js backend, Prisma, MySQL, and JWT authentication for secure access.",
@@ -51,7 +51,7 @@ export const ProjectList = [
       backend: "https://github.com/KavinduGayanthaK/Green_shadow_backend_node.git",
     },
     {
-      img: "/jobDetect.png",
+      img: "/portfolio/jobDetect.png",
       title: "JobDetect",
       description:
         "An app to detect if a job posting is a scam or not using its description.",
@@ -61,7 +61,7 @@ export const ProjectList = [
       backend: "",
     },
     {
-      img: "/jobDetect.png",
+      img: "/portfolio/jobDetect.png",
       title: "JobDetect",
       description:
         "An app to detect if a job posting is a scam or not using its description.",

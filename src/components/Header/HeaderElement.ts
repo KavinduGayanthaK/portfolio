@@ -1,6 +1,7 @@
 import { FaBars } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
 import styled from "@emotion/styled";
+import { Link } from "react-router-dom";
 
 export const Nav = styled.nav`
   background: transparent;
@@ -22,11 +23,11 @@ export const NavLink = styled(ScrollLink)`
     color: #f6f6f6;
   }
 `;
-export const Logo = styled('div')`
-  img {
-    width: 47px;
-    height: 47px;
-  }
+export const Logo = styled(Link)`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
 `;
 
 export const Bars = styled(FaBars)`
